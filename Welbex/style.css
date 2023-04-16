@@ -1,0 +1,293 @@
+body {
+  background-color: black;
+}
+.header {
+  margin-top: 61px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 137px;
+  align-items: start;
+  z-index: 100;
+}
+.first__header_block {
+  display: flex;
+  gap: 49px;
+}
+.header__logo_description {
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+  width: 140px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 13px;
+  word-wrap: break-word;
+  color: #e4e5ea;
+}
+.header__navigate {
+  display: flex;
+  gap: 30px;
+}
+.header__navigate_link {
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #9c9da0;
+  z-index: 100;
+}
+.header__navigate_link:hover {
+  color: #e4e5ea;
+  text-shadow: 0 0px 1px white;
+}
+.second__header_block_socials {
+  display: flex;
+  gap: 30px;
+}
+
+.header_svg:hover {
+  filter: drop-shadow(0 3px 10px white);
+}
+.second__header_block_socials-telephone {
+  margin-right: 17px;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #9c9da0;
+}
+
+.second__header_block_socials-telephone:hover {
+  color: #e4e5ea;
+  text-shadow: 0 0px 1px white;
+}
+#decoration_one {
+  position: absolute;
+  width: 259px;
+  height: 259px;
+  left: 602px;
+  top: -114px;
+  background: #833ab4;
+  opacity: 0.5;
+  filter: blur(196px);
+  z-index: 3;
+}
+
+#decoration_two {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: 868px;
+  top: -2px;
+  border-radius: 50%;
+
+  background: radial-gradient(
+      64% 64% at 27.25% 26.5%,
+      rgba(236, 208, 255, 0.64) 0%,
+      rgba(161, 93, 207, 0.24) 59.67%,
+      rgba(118, 49, 164, 0.208) 78.59%,
+      rgba(86, 24, 128, 0.232) 100%
+    )
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  box-shadow: 3px 6px 27px -10px rgba(177, 118, 217, 0.25);
+  filter: blur(5px);
+  backdrop-filter: blur(2px);
+}
+#decoration_three {
+  position: absolute;
+  width: 83px;
+  height: 83px;
+  left: 519px;
+  top: 83px;
+  border-radius: 50%;
+
+  background: radial-gradient(
+      64% 64% at 27.25% 26.5%,
+      rgba(255, 208, 208, 0.536) 0%,
+      rgba(212, 93, 93, 0.264) 59.67%,
+      rgba(167, 49, 49, 0.248) 78.59%,
+      rgba(130, 25, 25, 0.248) 100%
+    )
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  box-shadow: 3px 6px 27px -10px rgba(223, 125, 125, 0.25);
+  backdrop-filter: blur(2px);
+}
+#decoration_four {
+  position: absolute;
+  width: 311px;
+  height: 311px;
+  left: -91px;
+  top: 345px;
+
+  background: #961a1a;
+  opacity: 0.5;
+  filter: blur(196px);
+}
+#decoration_five {
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  left: 851px;
+  top: 547px;
+  border-radius: 50%;
+
+  background: radial-gradient(
+      64% 64% at 27.25% 26.5%,
+      rgba(255, 208, 208, 0.48) 0%,
+      rgba(212, 93, 93, 0.248) 59.67%,
+      rgba(167, 49, 49, 0.264) 78.59%,
+      rgba(130, 25, 25, 0.232) 100%
+    )
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  box-shadow: 3px 6px 27px -10px rgba(223, 125, 125, 0.25);
+  filter: blur(2.5px);
+  backdrop-filter: blur(2px);
+}
+.page__content {
+  margin-top: 90px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  gap: 137px;
+  align-items: start;
+}
+.page__content_slogan {
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Inter", sans-serif;
+  gap: 30px;
+}
+.page__content_slogan-headers-first {
+  color: #e4e5ea;
+  margin: 0px;
+  font-weight: 300;
+  font-size: 48px;
+  width: 370px;
+}
+.page__content_slogan-headers-second {
+  margin: 0px;
+  font-weight: 900;
+  background: linear-gradient(92deg, #fcb045 27.14%, #ff3f78 121.36%), #e4e5ea;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 900;
+  font-size: 48px;
+  width: 370px;
+}
+.page__content_slogan-description {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  width: 275px;
+  color: #e4e5ea;
+}
+.page__content_getCustomer {
+  width: 320px;
+  display: flex;
+  justify-content: end;
+  flex-wrap: wrap;
+}
+.page__content_getCustomer-header {
+  font-family: "Inter", sans-serif;
+  color: #e4e5ea;
+  font-size: 18px;
+  text-align: end;
+}
+.page__content_getCustomer-header-gradient {
+  font-weight: 700;
+  display: inline;
+  background: linear-gradient(90deg, #fcb045 36.99%, #fd1d1d 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.page__content_getCustomer_benefits {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 360px;
+}
+.page__content_getCustomer_benefits_cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: end;
+  /* margin-top: 40px; */
+}
+.page__content_getCustomer_benefits_cards_card {
+  font-family: "Montserrat", sans-serif;
+  color: #e4e5ea;
+}
+.page__content_getCustomer_benefits_card-header {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+.page__content_getCustomer_benefits_card-text {
+  font-size: 16px;
+  box-sizing: border-box;
+  width: 140px;
+  font-weight: 400;
+  margin-top: 5px;
+}
+.page__content_getCustomer-button {
+  width: 262px;
+  height: 61px;
+  margin-top: 15%;
+  border-style: none;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  color: white;
+  background-color: #4077f3;
+}
+footer {
+  display: flex;
+  color: white;
+  justify-content: space-around;
+  height: 300px;
+  margin-top: 85px;
+}
+
+.footer__block_title {
+  font-family: "Inter", sans-serif;
+  color: #656566;
+  font-weight: 700;
+  font-size: 14px;
+}
+.footer__block_list {
+  padding-left: 0;
+  list-style-type: none;
+  font-family: "Inter", sans-serif;
+  color: #e4e5ea;
+  font-weight: 400;
+  font-size: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 140px;
+  gap: 10px;
+}
+.footer__block_list-relocate {
+  margin-left: 30px;
+}
+.footer__block_list-link {
+  text-decoration: none;
+  color: #656566;
+}
+.footer__block_list-link:hover {
+  text-decoration: none;
+  color: #e4e5ea;
+}
+
+.footer__block_contacts {
+  text-align: end;
+  margin-right: 10px;
+}
